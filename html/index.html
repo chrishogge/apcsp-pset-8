@@ -1,0 +1,85 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <script src="../js/web.js"></script>
+      <link rel="stylesheet" href="css.css">
+      <title>Home</title>
+  </head>
+  <body>
+
+
+    <!-- YOUR CONTENT STARTS HERE -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <!-- Brand -->
+        <a class="navbar-brand">problem set eight</a>
+
+    <!-- Links -->
+        <div class="collapse navbar-collapse" id="nav-content">
+        <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link">home</a></li>
+        <li class="nav-item"><a class="nav-link" href="ciphers.html">ciphers</a></li>
+            </ul>
+        </div>
+    </nav>
+        <br>
+      <div class="container">
+          <div class="jumbotron text-center"><h3>encoding/decoding home</h3></div>
+      </div>
+      <br>
+      <div class="container">
+          <div class="card">
+            <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" id="caesar">Caesar Cipher</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  id="vigenere" onclick="switchTab('vigenere')">Vigenére Cipher</a>
+            </li>
+          </ul>
+        </div>
+          <br>
+          <div class="card-body">
+            <h5>Description:</h5>
+            <p id="description">The Caesar Cipher is a type of substitution cipher. This cipher creates its encoded text by replacing the plaintext letters with a letter a fixed number of spaces up or down the alphabet.</p> <img src="../images/c.png" class="float-right img-thumbnail" style="width:50%;height:auto;" id="desPic"/>
+              <br>
+              <h5>Example:</h5>
+              <br>
+              <p id="example">In this example, all letters have a right shift of 5. This means that plaintext <strong>A</strong> will be encoded to <strong>F</strong>, since it's 5 letters to right of A in the alphabet. Encoding a whole phrase, like <strong>Problem Set Eight</strong> using this method will output <strong>uwtgqjrxjyjnlmy.</strong></p>
+              <br>
+              <a href="https://en.wikipedia.org/wiki/Caesar_cipher" class="btn btn-primary" target="_blank" id="description-button">Learn More</a>
+      </div>
+      </div>
+    </div>
+
+      <footer class="footer bg-dark">
+      <div class="container">
+        <span class="text-muted">©2018 UCVTS AIT B3/4</span>
+      </div>
+    </footer>
+
+    <!-- YOUR CONTENT ENDS HERE -->
+
+
+    <!-- JavaScript: placed at the end of the document so the pages load faster -->
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
